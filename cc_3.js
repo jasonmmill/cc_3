@@ -12,3 +12,15 @@ orders[2] += 5
 console.log(orders)
 orderTotal = orders.reduce((total, num) => total + num, 0)
 console.log(orderTotal)
+
+// Task 3 - Employee Performance Tracking Scenario
+
+let employee = {
+    name: "Jason Miller",
+    role: "Supply Chain Manager",
+    performanceScore: 80,
+    isActive: true
+}
+employee.performanceScore = 85
+employee.promotionEligible = false
+console.log(employee)
