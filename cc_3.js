@@ -24,3 +24,13 @@ let employee = {
 employee.performanceScore = 85
 employee.promotionEligible = false
 console.log(employee)
+
+// Task 4 - Customer Feedback Records Scenario
+
+let feedback = [
+    {employeeName: "Eric Torres", feedbackText: "Valued Customer", rating: 85},
+    {employeeName: "Chad Kennedy", feedbackText: "Unvalued Customer", rating: 40},
+    {employeeName: "Joshua Alderman", feedbackText: "Valued Customer", rating: 70}
+]
+feedback.push({employeeName: "Juliana Joseph", feedbackText: "Unvalued Customer", rating: 35})
+console.log(feedback)
